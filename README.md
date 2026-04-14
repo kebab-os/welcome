@@ -1,11 +1,3 @@
-<div align="center">
-  <a href="https://kebabos.me"><img src="static/IMG_4559.png" width="100%" height="auto" /></a>
-</div>
-
-<br />
- 
----
-  
 # Hi, there 👋
 We are Kebab-OS, a dynamic and innovative tech organisation dedicated to crafting powerful and practical development tools and operating systems. We focus on building solutions that make life easier for developers, streamline workflows, and enhance productivity. From creating intuitive interfaces to optimizing performance, our tools are designed to meet the diverse needs of both novice and experienced programmers. Our goal is to empower the developer community by providing open-source, efficient, and user-friendly software that simplifies the development process and accelerates project delivery.
 

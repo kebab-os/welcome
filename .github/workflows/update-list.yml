@@ -31,7 +31,7 @@ jobs:
                   lines.append(f'- [{name}]({url})')
           list_md = '\n'.join(lines)
 
-          with open('profile/README.md', 'r') as f:
+          with open('README.md', 'r') as f:
               content = f.read()
 
           new_section = f'<!-- LIST_START -->\n{list_md}\n<!-- LIST_END -->'

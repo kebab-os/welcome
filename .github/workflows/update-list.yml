@@ -1,0 +1,55 @@
+name: Update List in README
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch list and update README
+        run: |
+          curl -sSf https://raw.githubusercontent.com/kebab-os/list/refs/heads/main/list.json \
+            | python3 -c "
+          import json, re, sys
+
+          items = json.load(sys.stdin)
+          lines = []
+          for item in items:
+              name = item['name']
+              url = item['url']
+              website = item.get('website')
+              if website:
+                  lines.append(f'- [{name}]({url}) — [{website}]({website})')
+              else:
+                  lines.append(f'- [{name}]({url})')
+          list_md = '\n'.join(lines)
+
+          with open('profile/README.md', 'r') as f:
+              content = f.read()
+
+          new_section = f'<!-- LIST_START -->\n{list_md}\n<!-- LIST_END -->'
+          content = re.sub(
+              r'<!-- LIST_START -->.*?<!-- LIST_END -->',
+              new_section,
+              content,
+              flags=re.DOTALL
+          )
+
+          with open('profile/README.md', 'w') as f:
+              f.write(content)
+          "
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update list in README"
+          git push

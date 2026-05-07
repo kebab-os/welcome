@@ -27,7 +27,6 @@ Feel free to reach out to us with any questions, feedback, or collaboration inqu
 - [kebab-tools](https://github.com/kebab-os/kebab-tools) — [https://tools.kebabos.me](https://tools.kebabos.me)
 - [kebab-lang](https://github.com/kebab-os/kebab-lang)
 - [kebab-shell](https://github.com/kebab-os/kebab-shell)
-- [kebab-client](https://github.com/kebab-os/kebab-client)
 <!-- LIST_END -->
 
 <br /><br />

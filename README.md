@@ -21,12 +21,12 @@ Feel free to reach out to us with any questions, feedback, or collaboration inqu
 
 <!-- LIST_START -->
 - [kebab-gui](https://github.com/kebab-os/kebab-gui) — [https://kebabos.me](https://kebabos.me)
-- [kebab-cli](https://github.com/kebab-os/kebab-cli) — [https://kebabos.me](https://kebabos.me)
-- [kebab-launcher](https://github.com/kebab-os/kebab-launcher)
-- [kebab-android](https://github.com/kebab-os/kebab-android)
 - [kebab-tools](https://github.com/kebab-os/kebab-tools) — [https://tools.kebabos.me](https://tools.kebabos.me)
-- [kebab-lang](https://github.com/kebab-os/kebab-lang)
-- [kebab-shell](https://github.com/kebab-os/kebab-shell)
+- [kebab-launcher (archive)](https://github.com/kebab-os/kebab-launcher)
+- [kebab-android (archive)](https://github.com/kebab-os/kebab-android)
+- [kebab-lang (archive)](https://github.com/kebab-os/kebab-lang)
+- [kebab-shell (archive)](https://github.com/kebab-os/kebab-shell)
+- [kebab-cli (archive)](https://github.com/kebab-os/kebab-cli) — [https://kebabos.me](https://kebabos.me)
 <!-- LIST_END -->
 
 <br /><br />

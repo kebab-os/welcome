@@ -20,7 +20,7 @@ Feel free to reach out to us with any questions, feedback, or collaboration inqu
 # List
 
 <!-- LIST_START -->
-- [kebab-os](https://github.com/kebab-os/kebab-os) — [https://kebabos.me](https://kebabos.me)
+- [kebab-gui](https://github.com/kebab-os/kebab-gui) — [https://kebabos.me](https://kebabos.me)
 - [kebab-tools](https://github.com/kebab-os/kebab-tools) — [https://tools.kebabos.me](https://tools.kebabos.me)
 - [kebab-launcher](https://github.com/kebab-os/kebab-launcher)
 - [android-config](https://github.com/kebab-os/android-config)
